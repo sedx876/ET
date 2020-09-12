@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class AccountsContainer extends Component {
+class TransactionsContainer extends Component {
   render() {
     return (
       <div>
@@ -10,4 +10,4 @@ class AccountsContainer extends Component {
   }
 }
 
-export default AccountsContainer
+export default TransactionsContainer
