@@ -1,13 +1,19 @@
-import React, { Component } from 'react'
+import React from 'react'
+//import {Route, Link} from 'react-router-dom'
+//import Account from './Account'
 
-class Accounts extends Component {
-  render() {
-    return (
-      <div>
-        
-      </div>
-    )
-  }
+const Accounts = (props) => {
+
+  return (
+    <div>
+    ACCOUNTS
+      {/* {props.accounts.map(account =>
+        <li key={account.id}>
+          <Link to={`/accounts/${account.id}`}>{account.name} - ${account.balance}</Link>
+        </li> )} */}
+    </div>
+
+  )
 }
 
 export default Accounts
