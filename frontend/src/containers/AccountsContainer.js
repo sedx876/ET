@@ -10,6 +10,7 @@ class AccountsContainer extends Component {
 
   componentDidMount() {
     this.props.fetchAccounts()
+    console.log(fetchAccounts)
   }
 
   render() {
