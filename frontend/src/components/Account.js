@@ -1,6 +1,6 @@
 import React from 'react'
 import {Redirect} from 'react-router-dom'
-import AccountEdit from './AccountEdit'
+//import AccountEdit from './AccountEdit'
 
 import TransactionsContainer from '../containers/TransactionsContainer'
 
@@ -19,7 +19,7 @@ const Account = (props) => {
       </h2>
       <TransactionsContainer account={account}/><br/>
       <h4>Edit Account</h4>
-      <AccountEdit account={account}/>
+      {/* <AccountEdit account={account}/> */}
     </div>
   )
 
