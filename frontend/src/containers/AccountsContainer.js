@@ -17,6 +17,7 @@ class AccountsContainer extends Component {
     return (
       <div>
         <AccountInput />
+        <br />
         <Accounts accounts={this.props.accounts} />
       </div>
     )
